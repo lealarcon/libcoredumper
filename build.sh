@@ -33,7 +33,6 @@ then
 	sayAndDo rm -rf coredumper-$VERSION
 fi
 
-sayAndDo tar zxf coredumper-$VERSION.tar.gz
 sayAndDo cd coredumper-$VERSION
 sayAndDo mv packages/deb debian
 sayAndDo chmod 644 debian/control
