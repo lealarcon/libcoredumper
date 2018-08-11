@@ -23,11 +23,9 @@ installIfMissing () {
 	echo
 }
 
-if [ -d coredumper-$VERSION ]
-then
-	sayAndDo rm -rf coredumper-$VERSION
-	git clone https://github.com/lealarcon/coredumper-1.2.1
-fi
+
+git clone https://github.com/lealarcon/coredumper-1.2.1
+
 
 
 
