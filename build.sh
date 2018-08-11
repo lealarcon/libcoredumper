@@ -30,9 +30,9 @@ git clone https://github.com/lealarcon/coredumper-1.2.1
 
 
 
-sayAndDo cd coredumper-$VERSION
-sayAndDo mv packages/deb debian
-sayAndDo chmod 644 debian/control
-sayAndDo patch -p0 < ../fix_from_scratch_build.patch
-sayAndDo dpkg-buildpackage -us -uc
+#sayAndDo cd coredumper-$VERSION
+#sayAndDo mv packages/deb debian
+#sayAndDo chmod 644 debian/control
+#sayAndDo patch -p0 < ../fix_from_scratch_build.patch
+#sayAndDo dpkg-buildpackage -us -uc
 
