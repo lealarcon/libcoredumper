@@ -16,7 +16,7 @@ installIfMissing () {
 	dpkg -s $@ > /dev/null
 	if [ $? -ne 0 ]; then
 		echo " - oops, missing $@, installing"
-		sudo apt-get install $@
+		apt-get install $@
 	else
 		echo " - $@ ok"
 	fi
